@@ -1,0 +1,214 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.App {
+    background-color: #f5f5f5;
+}
+
+.card {
+    width: 317px;
+    background-color: #f5f5f5;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+/* ### Info Section ### */
+#info-section {
+    font-family: "Inter";
+    font-style: normal;
+
+    width: 317px;
+}
+
+.info-photo {
+    height: 317px;
+    width: 317px;
+}
+
+#info-section > h1 {
+    font-weight: 650;
+    font-size: 32px;
+    line-height: 2px;
+    text-align: center;
+    padding: 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+#info-section > h2 {
+    color: #f47d27;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+    padding: 6px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+#info-section > h3 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1px;
+    text-align: center;
+    padding: 8px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+}
+
+.cta-email-button {
+    box-sizing: border-box;
+    width: 115px;
+    height: 34px;
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.cta-linkedin-button {
+    box-sizing: border-box;
+    width: 115px;
+    height: 34px;
+    background: #297fe5;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 14px;
+    color: #ffffff;
+}
+/* ### Info Section ### */
+
+/* ### About Section ### */
+#about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 35px;
+}
+
+#about-section > h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1%;
+    text-align: left;
+    margin-top: 25px;
+    color: #2b283a;
+}
+
+#about-section > h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: left;
+    color: #4a4e74;
+}
+
+/* ### About Section ###*/
+
+/* ### Interests Section ### */
+#interests-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 35px;
+}
+
+#interests-section > h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1%;
+    text-align: left;
+    margin-top: 27px;
+}
+
+#interests-section > h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: left;
+    color: #4a4e74;
+    margin-bottom: 31px;
+}
+
+/* ### Interests Section ### */
+
+/* ### Footer ### */
+footer {
+    background-color: #d5d4d8;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon:hover {
+    color: orange;
+}
+
+.footer-icon {
+    background: #918e9b;
+    color: #d5d4d8;
+    border-radius: 0.5px;
+    margin: 12px;
+}
+/* ### Footer ### */
